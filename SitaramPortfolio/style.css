@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(165, 161, 161);
+    font-family: 'Fira Sans',sans-serif;
+    height: 200vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 50px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+   /* background-color: yellow;*/
+    width: 90vw;
+    height: 150px;
+}
+
+.container{
+    display: flex;
+}
+
+
+
+.infoContainer{
+   /* background-color: rgba(245, 13, 121, 0.932);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius:  22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+    height: 58vh;
+    
+}
+
+.contactform{
+    padding-left: 300px;
+    padding-top: 45px;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+ h1{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 23px;
+}
+
+ p{
+    font-family: 'Source Code Pro',monospace;
+
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 12px ;
+}
+
+.intro p{
+    font-family: 'Source Code Pro',monospace;
+     margin: 12px;
+}
+
+.skillcontainer{
+    padding-left: 450px;
+
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+    font-weight: 900;
+}
+
+.skills{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5{
+    width: 100vw; ;
+    width: 100px;
+    font-family: "Open Sans";
+    padding-top: 0px;
+    color: #fff;
+    margin: 0px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li{
+    margin: 0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a i{
+    font: size 1.1em;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom spam{
+    text-transform: uppercase;
+    opacity: .4;
+    font-size: 200;
+}
+
+ .sidebarGo{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+
+.hamburge{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+@media(max-width: 1615){
+    *{
+        /* background-color: rgb(230,146,146); */
+    }
+
+    .divPic{
+        display: none;
+    }
+    /*.sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+} 
+
+.xy{
+    text-align: center;
+}
+
+.xyz{
+    text-align: center;
+    padding-left: 80px;    
+    
+}
+
+.projectcontainer{
+    text-align: center;
+}
